@@ -3,8 +3,8 @@ local vector = {}
 vector.__index = vector
 
 function round(x)
-  if x%2 ~= 0.0005 then
-    return math.floor(x+0.0005)
+  if x%2 ~= 0.5 then
+    return math.floor(x+0.5)
   end
   return x-0.5
 end
