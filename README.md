@@ -1,1 +1,1 @@
-Bad file
+String of Text
