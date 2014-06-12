@@ -126,7 +126,7 @@ end
 --sub actor end--
 
 function love.load()
-	sapo = actor.new(150, 150, 300, "sapo.png", 32, 52, 10, {1, 1, 1, 1, 1, 1}, 5)
+	sapo = actor.new(150, 150, 300, "sapo.png", 32, 52, 3, {2, 2, 2, 2, 2, 2}, 5)
   	sapo:genQuads()
 end
 
