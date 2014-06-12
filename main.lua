@@ -126,31 +126,31 @@ end
 --sub actor end--
 
 function love.load()
-	jelly = actor.new(150, 150, 300, "jelly.png", 64, 64, 10, {6, 6, 6, 6, 6, 6}, 6)
-  	jelly:genQuads()
+	sapo = actor.new(150, 150, 300, "sapo.png", 32, 52, 10, {1, 1, 1, 1, 1, 1}, 5)
+  	sapo:genQuads()
 end
 
 function love.update(dt)
-	jelly:update(dt)
+	sapo:update(dt)
 end
 
 function love.keypressed(key)
-	jelly:keypressed(key)
+	sapo:keypressed(key)
 end
 
 function love.keyreleased(key)
-	jelly:keyreleased(key)
+	sapo:keyreleased(key)
 end
 
 function love.mousepressed(x, y, button)
-	jelly:mousepressed(x, y, button)
+	sapo:mousepressed(x, y, button)
 end
 
 function love.mousereleased(x, y, button)
-	jelly:mousepressed(x, y, button)
+	sapo:mousepressed(x, y, button)
 end
 
 function love.draw()
-	jelly:draw()
+	sapo:draw()
 end
 
