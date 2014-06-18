@@ -1,0 +1,47 @@
+main
+
+function love.load()
+function love.update(dt)
+function love.keypressed(key)
+function love.keyreleased(key)
+function love.mousepressed(x, y, button)
+function love.mousereleased(x, y, button)
+function love.draw()
+
+actor (x, y, img, quads{}, w, h, frame, frameTotal{} seq, seqTotal, fps{})
+
+function actor:genQuads()
+function actor:update(dt)
+function actor:draw()
+
+	>scout (HP, Fuel, Water, Str, Spd, Gear{})
+
+	function scout:update(dt)
+	function scout:keypressed(key)
+	function scout:keyreleased(key)
+	function scout:mousepressed(x, y, button)
+	function scout:mousereleased(x, y, button)
+
+	>monster (HP, Speed, Skills{}, Drops{}, Update)
+
+	function monster:update(dt)
+
+world (is, w, h, img, quads{}, terrain{}, inhabits{})
+
+function world:terraform()
+function world:populate()
+function world:genQuads()
+function world:update(dt)
+function world:draw()
+
+sysMenu (is, title, op1, op2, op3, op4)
+
+function sysMenu:keypressed(key)
+function sysMenu:draw()
+
+gameMenu (is)
+
+function gameMenu:update(dt)
+function gameMenu:mousepressed(x, y, button)
+function gameMenu:mousereleased(x, y , button)
+function gameMenu:draw()
